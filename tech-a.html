@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dwave</title>
+    <link rel="stylesheet" href="asset/all.css">
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i&display=swap" rel="stylesheet">
+    <!--swiper-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <style>
+        .swiper-pagination-bullet {
+            opacity: 0.6;
+            background-color: #fff;
+        }
+
+        .swiper-pagination-bullet-active {
+            opacity: 1;
+        }
+    </style>
+    <!--animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+    <!--scroll-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--header-->
+    <script type="text/javascript" src="js/header.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <!--header-->
+        <!--container-tech-->
+        <section class="page-tech">
+
+            <div class="page-introword">
+                <a href="main-tech.html">◂ view all tech</a>
+                <div class="page-introtittle">
+                    <h2>QBSH</h2>
+
+                </div>
+
+                <div class="icon-mark"></div>
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing.</h3>
+                <div class="clearfix"></div>
+            </div>
+            <div id="tab-demo">
+                <ul class="tab-title">
+                    <li><a href="#tab01">DEMO</a></li>
+                    <li><a href="#tab02">INTRO</a></li>
+
+                </ul>
+                <div id="tab01" class="tab-inner">
+                    <div class="area-demo"></div>
+                </div>
+                <div id="tab02" class="tab-inner">
+                    <div class="area-intro">
+                        <p>QBSH (Query by Singing/Humming) is also an interesting and effective paradigms for music
+                            retrieval. Based on a singing/humming recording of 8 seconds, our QBSH system can identify
+                            the intended piece of music in 2 seconds or so, for a music database of 20K songs. Common
+                            applications scenarios of QBSH includes:
+                            <ul class="ul-normal">
+                                <li>Singing/humming queries for karaoke or any similar applications that requires music
+                                    retrieval.</li>
+                                <li>Real-time singing scoring based on pitch accuracy, for karaoke or for music
+                                    games/toys, etc.</li>
+                                <li>Automatic transcription from singing or humming
+                                </li>
+                            </ul>
+                            The deployment of a QBSH system involves the following steps:
+                            <ul class="ul-number">
+                                <li>Collect a set of music pieces for the database.</li>
+                                <li>Extract the main melody of these music pieces:
+                                    <ul class="ul-second">
+                                        <li>For monophonic recordings, we can perform pitch tracking to compute the
+                                            melody contours for comparison.</li>
+                                        <li>For polyphonic recordings, we need to perform singing voice separation first
+                                            before computing melody contours from the separated singing voices. (Note
+                                            that pitch tracking over separated singing voices usually is not as stable
+                                            as its counterpart on monophonic rendering of the main melody, such as
+                                            human's solo.)
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>Organize the extracted melody contours into a compack database for easy comparison.
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </section>
+    </div>
+    <!--footer-->
+    <script type="text/javascript" src="js/footer.js"></script>
+    
+    <!--script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.js"></script>
+    <script src="js/all.js"></script>
+</body>
+
+</html>

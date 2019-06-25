@@ -1,0 +1,26 @@
+@mixin desktop28{
+	@media (min-width: 1280px) {
+		@content
+	}
+}
+
+@mixin desktop{
+	@media (max-width: 1028px) {
+		@content
+	}
+}
+@mixin pad{
+	@media (max-width: 768px) {
+		@content
+	}
+}
+@mixin pad-below{
+	@media (max-width:767px) {
+		@content
+	}
+}
+@mixin phone{
+	@media (max-width:414px) {
+		@content
+	}
+}
